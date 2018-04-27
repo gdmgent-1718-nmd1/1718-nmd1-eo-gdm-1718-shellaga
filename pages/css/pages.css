@@ -15,4 +15,38 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+/*MIJN CSS*/
+
+/*CONCURRENTIE ANALYSE*/
+
+h2{
+    padding-top: 60px;
+}
+
+
+table td{
+    padding: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+table th{
+    background-color: rgba(255, 255, 255, 0.30);
+    text-align: left;
+    padding: 20px 330px 20px 20px;
+    line-height: 1em;
+    font-size: 18px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+/* EINDE CONRRENTIEANALYSE*/
