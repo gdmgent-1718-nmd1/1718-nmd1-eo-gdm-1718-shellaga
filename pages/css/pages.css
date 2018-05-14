@@ -53,6 +53,15 @@ table, th{
     border: 1px solid black;
 }
 
+a{
+    text-decoration: blink;
+    color: black;
+}
+
+a:hover{
+    color: rgb(83, 83, 83);
+}
+
 /* EINDE CONRRENTIEANALYSE*/
 
 
