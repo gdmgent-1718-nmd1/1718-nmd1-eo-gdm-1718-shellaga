@@ -80,3 +80,31 @@ table, th{
 }
 
 /* EINDE USER SENARIO'S*/
+
+
+
+
+/* DIGITAL STYLEGUIDES*/
+
+.hoofdtitel{
+font-family: 'Advent Pro', sans-serif;
+color: black;
+font-size: 46px;
+text-transform: uppercase;
+}
+
+.tussentitel{
+    font-family: 'Advent Pro', sans-serif;
+    color: black;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* EINDEDIGITAL STYLEGUIDES*/
