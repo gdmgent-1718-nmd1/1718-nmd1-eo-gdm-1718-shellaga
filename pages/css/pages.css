@@ -108,17 +108,24 @@ table, th{
     box-shadow: 0px 3px 5px  rgb(216, 216, 216);
 }
 
+
+.button:hover{
+    background-color: black;
+}
+
+
 .artiest{
     background-color: white;
     margin-bottom: 10px;
     margin-left: 15px;
     padding: 6px;
     width: 350px;
-    height: 255px;
+    height: 270px;
     display: inline-block;
     text-align: center;
     box-shadow: 0px 3px 5px  rgb(216, 216, 216);
     position: relative;
+    border: rgb(209, 209, 209) 0.1px solid;
 }
 
 .foto{
@@ -140,28 +147,70 @@ table, th{
 .foto:hover{
     background-size: 115%;
     background-position: center;
-    -webkit-box-shadow: inset 3px -26px 63px 23px rgba(0,0,0,0.35);
-    -moz-box-shadow: inset 3px -26px 63px 23px rgba(0,0,0,0.35);
-    box-shadow: inset 3px -26px 63px 23px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -26px 63px 23px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -26px 63px 23px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -26px 63px 23px rgba(0,0,0,0.35);
 }
 
 
-.button:hover{
-    background-color: black;
+.tickets{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 1px  rgb(173, 173, 173);
+    position: absolute;
+    top: 5px;
+    margin-left: 240px;
 }
 
+.artiest img{
+    margin-left: 5px;
+}
 
 h3{
     font-family: 'Advent Pro', sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 46px;
+    line-height: 38px;
     color: white;
     text-transform: uppercase;
-    text-shadow: 0px 1px 2px  rgb(216, 216, 216);
+    text-shadow: 0px 0px 1px  rgb(173, 173, 173);
     position: absolute;
-    bottom: 40px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    text-align: left;
+
 }
 
+h4{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: hsla(6, 61%, 64%, 1);
+    text-transform: uppercase;
+    text-shadow: 0px 0.5px 0.5px rgb(85, 35, 30);
+    position: absolute;
+    top: 100px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+$$
+}
+
+.titels_datum h3, h4{
+    bottom: 107px;
+}
+
+.body_artiest{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 18px;
+    text-align: left;
+    line-height: 15px;
+    margin-top: 0px;
+}
 
 .button:active{
     background-color: white;
@@ -172,6 +221,7 @@ h3{
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 60px;
+    margin-left: 15px;
 }
 
 .hoofdtitel{
