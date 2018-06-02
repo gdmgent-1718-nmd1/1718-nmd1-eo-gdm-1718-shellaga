@@ -343,6 +343,14 @@ hr{
 }
 
 
+    .icoon{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    bottom: 60px;
+    margin-left: 560px;
+}
+
 
 
 /* EINDEDIGITAL STYLEGUIDE*/
