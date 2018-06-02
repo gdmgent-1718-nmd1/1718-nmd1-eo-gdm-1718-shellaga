@@ -92,6 +92,14 @@ table, th{
 
 /* DIGITAL STYLEGUIDE*/
 
+.accent{
+    color: hsla(6, 61%, 64%, 1);
+}
+
+.grijs{
+    color: rgb(90, 90, 90);
+}
+
 .button{
     font-family: 'Advent Pro', sans-serif;
     font-weight: 700;
@@ -99,7 +107,8 @@ table, th{
     background-color: white;
     font-size: 20px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     margin-left: 15px;
     padding: 10px;
     width: 200px;
@@ -113,6 +122,78 @@ table, th{
     background-color: black;
 }
 
+.button:active{
+    background-color: white;
+}
+
+
+.link{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.link:hover{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+}
+
+.link:active{
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.link_speciaal{
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsla(6, 61%, 64%, 1);
+    text-decoration: underline;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.link_speciaal:hover{
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.link_speciaal:active{
+    font-family: 'Advent Pro', sans-serif;
+    text-decoration: underline;
+    color: hsla(6, 61%, 64%, 1);
+}
+
+.link_und{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+
+.link_und:hover{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+}
+
+.link_und:active{
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+    color:black;
+}
 
 .artiest{
     background-color: white;
@@ -195,7 +276,6 @@ h4{
     top: 100px;
     margin-bottom: 5px;
     margin-left: 20px;
-$$
 }
 
 .titels_datum h3, h4{
@@ -212,9 +292,6 @@ $$
     margin-top: 0px;
 }
 
-.button:active{
-    background-color: white;
-}
 
 .onderverdeling{
     color: hsla(6, 61%, 64%, 1);
