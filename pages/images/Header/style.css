@@ -1,0 +1,43 @@
+
+.balk{
+    color: white;
+    list-style: none;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 99%;
+    height: 20%;
+    text-transform: uppercase;
+    text-align: right;
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    padding-top: 190px;
+    padding-right: 25px;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.header{
+    top: 15px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.balk a, li{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+
+a,li:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: hsla(6, 61%, 64%, 1);
+}
