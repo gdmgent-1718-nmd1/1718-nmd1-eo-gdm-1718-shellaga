@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro:400,700|Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
 
 </head>
 <body>
+
     <h1>Digital Styleguide</h1>
     <hr/>
 
@@ -20,9 +23,9 @@
     Dit kon ik niet tot een goed eind brengen, dus heb ik ervoor gekozen om een <strong>micro</strong> te nemen, dit <strong>aangevuld blaadjes</strong></p>
     <p class="body">Het <strong>lettertype</strong> is Advent Pro, vandaar dat ik de <strong>huisstijl</strong> ook daarop gebasseerd heb. Dit is het eindresultaat in verschillende versies. <br>
 
-    <img src="../images/PMC_LOGO.png" alt="Icon ticket" title="Ticket" height="70px"> <br>
-    <img src="../images/PMC_LOGO_afkorting.png" alt="Icon ticket" title="Ticket" height="70px"> <br>
-    <img src="../images/PMC_LOGO_klein.png" alt="Icon ticket" title="Ticket" height="70px">
+    <img src="./images/PMC_LOGO.png" alt="PMC logo" title="PMC logo" height="70px"> <br>
+    <img src="./images/PMC_LOGO_afkorting.png" alt="PMC logo afkorting" title="PMC logo" height="70px"> <br>
+    <img src="./images/PMC_LOGO_klein.png" alt="PMC logo klein" title="PMC logo" height="70px">
     </p>
     <hr/>
 
@@ -38,6 +41,7 @@
     <div class="button">bekijk alles ></div>
     <div class="button">meer info ></div>
     <div class="button">cultuurcafé ></div>
+    <div class="button2">bereken route ></div>
     <p class="body">Zoals je kan zien, is er bovenaan meer marge dan onderaan.</p>
 
     <p class="tussentitel"><strong>Info</strong>
@@ -47,6 +51,8 @@
     <strong>Padding:</strong> 10px<br>
     <strong>Marge-top:</strong> 20px <br>
     <strong>Marge-bottom:</strong> 50px</p>
+
+    <hr>
 
     <h2 class="onderverdeling">links</h2>
     <p class="link">Ga naar de officiële website</p>
@@ -93,35 +99,65 @@
         <hr/>
 
 
-        <h2 class="onderverdeling">Artiestenkader</h2>
-        <p class="body">Bij de artiestenkader wordt een icoontje gebruikt voor de tickets.<br>
-        Dit wordt klein weergegeven, in 12px. <br>
-        <img class="icoon" src="../images/ticket.png" alt="Icon ticket" title="Ticket" height="70px">
+        <h2 class="onderverdeling">icons</h2>
+        <p class="body">Bij de artiestenkader wordt een icoontje gebruikt voor de tickets en voor de locatie.<br>
+        Dit wordt beide klein weergegeven, in 12px. <br>
+        <img class="icon" src="./images/ticket.png" alt="Icon ticket" title="Ticket" height="70px">
+        <img class="icon" src="./images/locatie_icon.png" alt="Icon locatie" title="Locatie" height="70px">
         </p>
+
+        <hr/>
+
+
+        <h2 class="onderverdeling">Artiestenkader</h2>
+
+        <p class="body"> Bij de <strong>artiestenkaders</strong> wordt gebruik gemaakt van een box shadow bij <strong>hover</strong>. 
+        Wanneer je hovert over de foto wordt de foto <strong>groter en lichter</strong>.</p>
+
+         <p class="body"> De naam van de artiest of het event wordt groot weergegeven met daar boven de datum.
+        Je kan verder gaan naar info en tickets, je ziet de genres en de locatie.
+         </p>
 
 
         <div class="artiest_container">
+            <div class="artiest">
+            <div class="foto"></div>
+            <div class="titels_datum">
+            <p class="tickets">Tickets en info <img src="./images/ticket.png" alt="Icon ticket" title="Ticket" height="12px"></p>
+            <h4>ma 21 mei 2018</h4>
+            <h3>dotan</h3></div>
+            <p class="body_artiest">Hollandse hitmaker komtterug naar PMC met een spectaculair album dat je zeker live gehoord moet hebben!</p>
+            <hr>
+            <p class="genres"> pop | singer-songwriter</p>
+            <p class="locatie"> <img src="./images/locatie_icon.png" alt="Icon locatie" title="Locatie" height="12px">pmc grote zaal</p>
+         </div>
 
-        <div class="artiest">
-        <div class="foto"></div>
-        <div class="titels_datum">
-        <p class="tickets">Tickets en info <img src="../images/ticket.png" alt="Icon ticket" title="Ticket" height="12px"></p>
-        <h4>ma 21 mei 2018 ma 21 mei 2018 ma 21 mei 2018</h4>
-        <h3>dotan dotan dotan dotan </h3></div>
-        <p class="body_artiest">Hollandse hitmaker komtterug naar PMC met een spectaculair album dat je zeker live gehoord moet hebben!</p>
-        </div>
 
+         <div class="artiest_container">
+            <div class="artiest">
+            <div class="foto2"></div>
+            <div class="titels_datum">
+            <p class="tickets">Tickets en info <img src="./images/ticket.png" alt="Icon ticket" title="Ticket" height="12px"></p>
+            <h4>do 07 juni 2018</h4>
+            <h3>milo meskens</h3></div>
+            <p class="body_artiest">Milo Meskens’s unique recipe for pop, folk and blues has been well received!</p>
+            <hr>
+            <p class="genres"> pop | dance | singer-songwriter</p>
+            <p class="locatie"> <img src="./images/locatie_icon.png" alt="Icon locatie" title="Locatie" height="12px">pmc kleine zaal</p>
+         </div>
         </div>
+    </div>
+
 
         <hr/>
 
     
-        <h2 class="onderverdeling">Header</h2>
+        <h2 class="onderverdeling"><a href="./images/Header/index.html" target="_blank">Header</a></h2>
 
         <hr/>
 
     
-        <h2 class="onderverdeling">Footer</h2>
+        <h2 class="onderverdeling"><a href="./images/Header/index.html" target="_blank">Footer</a></h2>
 
         <hr/>
 
