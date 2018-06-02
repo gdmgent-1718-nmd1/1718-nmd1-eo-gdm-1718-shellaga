@@ -15,6 +15,7 @@ li{
     font-size: 26px;
     font-weight: 700;
     padding-top: 25px;
+    width: 100px;
 }
 
 .list{
@@ -48,7 +49,7 @@ color: white;
     padding-top: 25px;
     position: absolute;
     top: 0px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .info{
@@ -60,7 +61,7 @@ color: white;
     padding-top: 100px;
     position: absolute;
     top: 0px;
-    margin-left: 60px;
+    margin-left: 40px;
     width: 280px;
 }
 
@@ -78,7 +79,7 @@ color: white;
     text-align: center;
     position: absolute;
     top: 250px;
-    margin-left: 600px;
+    margin-left: 540px;
 
 }
 
@@ -90,4 +91,73 @@ color: white;
 
 .button:active{
     background-color: white;
+    color: hsla(6, 61%, 64%, 1);
+}
+
+.follow{
+    background-color: hsla(6, 61%, 64%, 1);
+    border-radius: 50%;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 55px;
+    margin-left: 1070px;
+}
+
+
+.follow1{
+    background-color: hsla(6, 61%, 64%, 1);
+    border-radius: 50%;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 55px;
+    margin-left: 1150px;
+}
+
+
+.follow2{
+    background-color: hsla(6, 61%, 64%, 1);
+    border-radius: 50%;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 135px;
+    margin-left: 1150px;
+}
+
+.volg{
+    color: white;
+    list-style: none;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 30px;
+    position: absolute;
+    top: 200px;
+    margin-left: 1100px; 
+}
+
+.volg:hover{
+    color: hsla(6, 61%, 64%, 1);
+}
+
+.volg:active{
+    color: white;
+}
+
+img{
+    margin:auto;
+    margin-top: 40px;
+    align-content: center;
+    margin-left: 610px;
+}
+
+.info_website{
+    color: rgb(90, 90, 90);
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin:auto;
+    text-align: center;
 }
