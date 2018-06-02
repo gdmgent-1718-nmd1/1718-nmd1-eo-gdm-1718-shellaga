@@ -126,6 +126,33 @@ table, th{
     background-color: white;
 }
 
+.button2{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: hsla(6, 61%, 64%, 1);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 3px 5px  rgb(216, 216, 216);
+}
+
+
+.button2:hover{
+    background-color: black;
+    color: hsla(6, 61%, 64%, 1);
+}
+
+.button2:active{
+    background-color: white;
+}
+
 
 .link{
     font-family: 'Lato', sans-serif;
@@ -195,6 +222,16 @@ table, th{
     color:black;
 }
 
+.icon{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.artiest_container{
+    display: flex;
+}
+
 .artiest{
     background-color: white;
     margin-bottom: 10px;
@@ -225,7 +262,31 @@ table, th{
     transition: 0.3s ease-in-out;
 }
 
+.foto2{
+    margin-bottom: 10px;
+    width: 347px;
+    height: 170px;
+    display: inline-block;
+    text-align: center;
+    position: block;
+    background-image: url(../images/milo_meskens.jpg);
+    background-size: 100%;
+    background-position: center; 
+    -webkit-box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -22px 102px 23px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -22px 102px 23px rgba(0,0,0,0.71);
+    box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -22px 102px 23px rgba(0,0,0,0.71);
+    transition: 0.3s ease-in-out;
+}
+
 .foto:hover{
+    background-size: 115%;
+    background-position: center;
+    -webkit-box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -26px 63px 23px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -26px 63px 23px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -26px 63px 23px rgba(0,0,0,0.35);
+}
+
+.foto2:hover{
     background-size: 115%;
     background-position: center;
     -webkit-box-shadow: 0px 3px 5px  rgb(216, 216, 216), inset 3px -26px 63px 23px rgba(0,0,0,0.35);
@@ -246,6 +307,17 @@ table, th{
     margin-left: 240px;
 }
 
+.tickets:hover{
+text-decoration: underline;
+}
+
+.tickets:active{
+    text-decoration: underline;
+    color: hsla(6, 61%, 64%, 1);
+    }
+
+
+
 .artiest img{
     margin-left: 5px;
 }
@@ -262,6 +334,7 @@ h3{
     margin-bottom: 0px;
     margin-left: 15px;
     text-align: left;
+    top: 99px;
 
 }
 
@@ -273,9 +346,9 @@ h4{
     text-transform: uppercase;
     text-shadow: 0px 0.5px 0.5px rgb(85, 35, 30);
     position: absolute;
-    top: 100px;
+    top: 103px;
     margin-bottom: 5px;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 .titels_datum h3, h4{
@@ -292,6 +365,43 @@ h4{
     margin-top: 0px;
 }
 
+.genres{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-left: 18px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.locatie{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    color: hsla(6, 61%, 64%, 1);
+    text-align: right;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 240px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.locatie img{
+    margin-right: 5px;
+}
+
+.artiest hr{
+    width: 315px;
+    top: 210px;
+    position: absolute;
+    margin-left: 18px;
+}
 
 .onderverdeling{
     color: hsla(6, 61%, 64%, 1);
@@ -342,14 +452,6 @@ hr{
     margin-left: 15px;
 }
 
-
-    .icoon{
-    width: 10%;
-    height: 10%;
-    position: relative;
-    bottom: 60px;
-    margin-left: 560px;
-}
 
 
 
